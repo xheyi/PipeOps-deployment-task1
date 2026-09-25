@@ -1,0 +1,79 @@
+.first-name, .last-name, .email, .password, .file, .age, .select-one{
+    width: 100%;
+    margin: 10px 0 0 0;
+    height: 2em;
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.textarea{
+    width: 100%;
+    margin: 10px 0 0 0;
+    font-family: sans-serif;
+    font-size: inherit;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: rgb(32, 32, 58);
+    color: white;
+    font-family: tahoma;
+}
+
+form{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 2.5rem;
+    max-width: 600px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+input {
+    background-color: rgb(23, 23, 43);
+    border: none;
+}
+
+fieldset {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(110, 110, 160) ;
+    margin-top: 2rem;
+
+}
+.terms{
+    margin-top: 3em;
+}
+input[type="submit"]{
+    display: block;
+    margin: auto;
+    background-color: rgb(62, 62, 123);
+    width: 150%;
+    height: 2.2rem;
+    border: 1px solid white;
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: white;
+}
+
+fieldset:last-of-type{
+    border: none;
+}
+
+input[type="radio"]{
+    width: 1.25rem;
+    height: 1.25rem;
+    vertical-align: -2px;
+}
+
+a{
+    color: white;
+}
