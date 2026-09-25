@@ -28,6 +28,8 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::897722709473:role/github-actions-deploy
+          role-session-name: GitHubActions-Terraform
+          audience: sts.amazonaws.com
           aws-region: us-east-1
 
       - name: setup terraform
@@ -82,6 +84,8 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::897722709473:role/github-actions-deploy
+          role-session-name: GitHubActions-Deploy
+          audience: sts.amazonaws.com
           aws-region: us-east-1
 
       - name: deploy to ec2
