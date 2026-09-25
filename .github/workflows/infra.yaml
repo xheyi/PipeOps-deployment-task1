@@ -21,9 +21,6 @@ jobs:
         working-directory: terraform
 
     steps:
-      - name: Debug OIDC claims
-        uses: github/actions-oidc-debugger@main
-
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v3
         with:
